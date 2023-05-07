@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-width: 10%;
+}
+
+h1 {
+    color: #D82C2C;
+}
+
+.container {
+    display: flex;
+}
