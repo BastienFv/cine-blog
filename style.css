@@ -1,3 +1,7 @@
+header {
+    margin-bottom: 2%;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -5,7 +9,8 @@
 }
 
 .logo {
-    max-width: 10%;
+    width: 10%;
+    height: 10%;
 }
 
 h1 {
@@ -14,4 +19,59 @@ h1 {
 
 .container {
     display: flex;
+}
+
+.critics {
+    border-left: 0.5em solid #D82C2C;
+    margin: 0 1%;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+}
+
+.film-title {
+    color: white;
+    font-size: 1.5em;
+}
+
+.note {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-red {
+    color: #D82C2C;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.paragraph {
+    margin-left: 1%;
+}
+
+.critics {
+    background-color: whitesmoke;
+}
+
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 30%;
+        height: 30%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
 }
