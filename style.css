@@ -27,9 +27,17 @@ h1 {
     position: relative;
 }
 
+.critics:hover {
+    border-left: 0.5em solid gray;
+}
+
 img {
     max-width: 100%;
     position: relative;
+}
+
+img:active {
+    opacity: 20%;
 }
 
 .title {
@@ -58,6 +66,10 @@ img {
 
 .paragraph {
     margin-left: 1%;
+}
+
+.paragraph p::first-letter {
+    color: #D82C2C;
 }
 
 .critics {
